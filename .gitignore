@@ -3,17 +3,17 @@
 __pycache__
 
 # Output
-*/output/*
+output/*
 *.png
 *.pdf
 
-# macOs
+# macOS
 .DS_Store
 
 # VSCodeCounter
 .VSCodeCounter
 
-# Testdaten
+# Test
 TEST_*
 
 # Build & Distribution

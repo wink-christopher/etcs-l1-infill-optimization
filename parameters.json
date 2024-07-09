@@ -1,0 +1,33 @@
+{
+    "track": {
+        "line_speed": 160,
+        "release_speed": 20,
+        "gradient": 0,
+        "balises": 3,
+        "balise_group_distance": 50,
+        "balise_positions": [1759, 0, 0]
+    },
+    "train": {
+        "speed": 160,
+        "deceleration": {
+            "steps": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160],
+            "values": [0, -0.072, -0.194, -0.295, -0.379, -0.45, -0.512, -0.565, -0.612, -0.653, -0.69, -0.723, -0.753, -0.78, -0.804, -0.826, -0.833]
+        },
+        "acceleration": {
+            "steps": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160],
+            "values": [0, 0.926, 1.389, 0.926, 0.926, 0.926, 0.926, 0.926, 0.926, 0.694, 0.556, 0.556, 0.463, 0.463, 0.347, 0.347, 0.309]
+        },
+        "rotating_mass": 10,
+        "indication_point": 1581,
+        "min_cruise_time": 6,
+        "processing_time": 1.5
+    },
+    "tech": {
+        "steps": 10,
+        "weighting": "TIME",
+        "plot_trajectories": true,
+        "plot_3d": true,
+        "rotate_plot": false,
+        "locale": "en"
+    }
+}

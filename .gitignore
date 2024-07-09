@@ -1,0 +1,22 @@
+# Environment
+.venv
+__pycache__
+
+# Output
+*/output/*
+*.png
+*.pdf
+
+# macOs
+.DS_Store
+
+# VSCodeCounter
+.VSCodeCounter
+
+# Testdaten
+TEST_*
+
+# Build & Distribution
+build
+dist
+*.spec
